@@ -7,7 +7,7 @@ let port = process.env.PORT || 5000;
 // Setting app : port, express.static, bodyParser
 
 app.get("/",(req,res)=>{
-    res.send("Hello App example to deploy on Heroku")
+    res.send("Hello App example to deploy on Heroku (test reviews)")
 });
 app.get("/application", (req,res)=> {
     res.send(importData);
