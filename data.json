@@ -1,0 +1,11 @@
+{
+    "name": "LEGARANT",
+    "description": "LEGARANT application connect with CRM Salesforce",
+    "repository": "https://github.com/rania196/legarantAppTest",
+    "env": {
+      "PGSSLMODE": {
+        "description": "Require SSL for Postgres",
+        "value": "require"
+      }
+    }
+  }
